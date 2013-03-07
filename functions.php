@@ -16,7 +16,8 @@
 			echo "fatal error: " . $e->getMessage();
 		}
 	}
-	add_action('get_header', 'parse_less');
+	if(current_user_can("administrator"))
+		add_action('get_header', 'parse_less');
 	
 
 	// Everyone uses menus and post-thumbnails

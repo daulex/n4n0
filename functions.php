@@ -31,3 +31,6 @@
 		return '...';
 	}
 	add_filter('excerpt_more', 'new_excerpt_more');
+
+	// handy add image sizes 
+	// add_image_size( $name, $width = 0, $height = 0, $crop = false )

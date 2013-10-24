@@ -10,7 +10,7 @@ This exists only for the purpose of not having to create all of these basic file
 
 * LESS processing on each reload for admins, if the less file is newer.
 * handy functions like
-** login username hiding (does not show the user doesn't exist message on failed login)
-** enables menus and post thumbnails
-** modifies excerpt from [] to ...
-** includes a decent reset file and enforces border-box box sizing upon all elements
+  * login username hiding (does not show the user doesn't exist message on failed login)
+  * enables menus and post thumbnails
+  * modifies excerpt from [] to ...
+  * includes a decent reset file and enforces border-box box sizing upon all elements

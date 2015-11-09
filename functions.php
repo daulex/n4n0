@@ -26,7 +26,7 @@
 		add_theme_support('post-thumbnails');
 	}
 	
-	// Because [...] is fucking ugly
+	// Because [...] is ugly
 	function new_excerpt_more($more) {
 		return '...';
 	}

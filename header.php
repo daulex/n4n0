@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0, maximum-scale=1.0">
+	
 	<title><?php wp_title(' | ', true, 'right'); bloginfo('name'); ?></title>
 
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/a/css/reset.css" />

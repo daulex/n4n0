@@ -6,7 +6,6 @@
 	
 	<title><?php wp_title(' | ', true, 'right'); bloginfo('name'); ?></title>
 
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/a/css/reset.css" />
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/a/css/base.css" />
 
 	<?php wp_enqueue_script( "jquery" ); ?>

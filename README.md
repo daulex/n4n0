@@ -9,8 +9,11 @@ This exists only for the purpose of not having to create all of these basic file
 ## Features include
 
 * LESS processing on each reload for admins, if the less file is newer.
+* A few handy LESS mixins
 * handy functions like
   * login username hiding (does not show the user doesn't exist message on failed login)
   * enables menus and post thumbnails
   * modifies excerpt from [] to ...
   * includes a decent reset file and enforces border-box box sizing upon all elements
+  * disables comments
+  * disables emojis

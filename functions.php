@@ -32,9 +32,15 @@
 	}
 	add_filter('excerpt_more', 'new_excerpt_more');
 
+	// optional live dev mode
+// 	if(!current_user_can("administrator") && $GLOBALS['pagenow'] !== 'wp-login.php')
+// 		die("maintenance");
+
 	// handy add image sizes 
 	// add_image_size( $name, $width = 0, $height = 0, $crop = false )
 
 	// load helpers
 	include 'functions/disable_comments.inc.php';
 	include 'functions/disable_emojis.inc.php';
+
+
